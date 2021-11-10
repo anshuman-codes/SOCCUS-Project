@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#body-content {
+  flex: 2 1 0;
+  background-color: rgb(58, 166, 228);
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+#body {
+  border: 1px solid white;
+  color: black;
+  background-color: rgb(250, 248, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: auto 5px; */
+  margin: 0px auto;
+  width: 40%;
+  border-radius: 8px;
+}
+
+#body #message {
+  padding: 30px 2px;
+}
+
+#body #message #message-1 {
+  font-size: 1.8rem;
+  padding: 16px 0px;
+}
+#body #message #message-2 {
+  font-size: 0.8rem;
+  padding: 2px 0px;
+}
+
+#body #login-area form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+#body #login-area #login-form .form-group {
+  padding: 13px 5px;
+  display: flex;
+}
+
+#body #login-area #login-form .form-group label {
+  width: 50%;
+}
+
+#body #login-area #login-form .form-group input {
+  border-radius: 4px;
+  border: 1px solid bisque;
+}
+
+#body #login-area #login-form .form-group #avatar {
+  border: none;
+}
+
+#body #login-area #login-form button {
+  background-color: #333333;
+  border: 2px solid black;
+  color: antiquewhite;
+  font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 3px 13px;
+}

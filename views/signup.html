@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/signUpPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>NoteTask-SignUp</title>
+</head>
+
+<body>
+    <section id="body-content">
+        <div id="body">
+            <div id="message">
+                <div id="message-1">
+                    Sign Up
+                </div>
+                <div id="message-2">
+                    Please fill this form.
+                </div>
+
+            </div>
+            <div id="login-area">
+                <form action="/users" method="post" id="login-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail id:</label>
+                        <input type="email" id="email" placeholder="Enter your Email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="Enter your password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="avatar">Profile Image:</label>
+                        <input type="file" id="avatar" placeholder="Please Upload your image" name="avatar">
+                    </div>
+                    <div id="button-area">
+                        <button class="button">
+                            Login
+                        </button>
+                        <button class="SignUp" type="submit">
+                            SignUp
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

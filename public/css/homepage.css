@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: thistle;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#ques-area {
+  width: 100%;
+}
+
+#ques-area .ques {
+  width: 40%;
+  background-color: white;
+  border: 3px solid grey;
+  border-radius: 7px;
+}
