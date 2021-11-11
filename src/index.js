@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 //Setting of app
 // app.set("views", path.join(__dirname, "../views"));
 
-const port = process.env.port;
+const port = process.env.PORT || 3000;
 
 // Automatically parses incoming JSON as an object for our use\
 
